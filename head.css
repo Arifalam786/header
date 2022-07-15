@@ -1,0 +1,77 @@
+.circ {
+    border-radius: 30px;
+}
+
+icon {
+    border-radius: 20px;
+}
+
+.cont1 {
+    display: flex;
+    background-color: blue;
+    justify-items: center;
+    height: 40px;
+}
+
+.hi {
+    margin: 5px;
+    text-decoration: solid;
+    padding: 5px 10px 5px;
+    color: black;
+    font-size: larger;
+}
+
+.hi:hover {
+    color: white;
+}
+
+#drop {
+    display: inline-block;
+    position: relative;
+}
+
+.ddc {
+    display: none;
+    background: rgb(212, 211, 211);
+}
+
+#drop:hover .ddc {
+    display: block;
+}
+
+#butt {
+    display: inline-block;
+    position: relative;
+}
+
+.dds {
+    display: none;
+    background-color: rgb(235, 231, 231);
+    width: 200px;
+}
+
+.suu {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+    padding: 3px 6px 3px;
+}
+
+.suu:hover {
+    color: white;
+}
+
+#butt:hover .dds {
+    display: block;
+}
+
+#bts {
+    padding: 11px 10px 11px;
+}
+
+#bts:hover {
+    transform: rotate(90deg);
+}
